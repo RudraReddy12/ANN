@@ -1,1 +1,15 @@
-# ANN
+# ANN(Artificial Neural Network)
+- **ANN** is a model inspired by human brain
+- It consists of :
+  - Neurons
+  - Layers(Input,Hidden,Output)
+- Number of neurons in the input layers are equal to number of features
+- We can use any number of hidden layers , later can be tuned by hyperparameter tuning
+- For each neuron weights and bias are added
+- Weighted sum can be passed through activation function same for each neuron
+- Activation function for neurons in same hidden layer should be same
+---
+- **Forward Propagation and backward Propagation**:
+- In ANN training means one forward pass + one backward pass called one epoch
+- More epochs helps model learn better patterns , tunable param
+- In backward propagation with the help of optimizers , the weights and bais can be updated with respect to reduction in loss
